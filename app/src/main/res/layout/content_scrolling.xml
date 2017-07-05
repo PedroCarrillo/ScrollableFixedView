@@ -26,8 +26,8 @@
                     android:layout_margin="@dimen/text_margin"
                     android:text="@string/mediumtext1" />
 
-                <View
-                    android:id="@+id/innerView"
+                <android.support.v4.widget.Space
+                    android:id="@+id/placeholder"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:background="@color/colorPrimaryDark"/>
@@ -47,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_gravity="bottom"
-        android:background="@color/colorPrimaryDark"/>
+        android:background="#FF00"/>
 
 </android.support.design.widget.CoordinatorLayout>
 
